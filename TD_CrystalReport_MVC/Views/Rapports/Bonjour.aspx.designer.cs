@@ -29,14 +29,5 @@ namespace TD_CrystalReport_MVC.Views.Rapports {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::CrystalDecisions.Web.CrystalReportViewer CrystalReportViewer1;
-        
-        /// <summary>
-        /// Contrôle CrystalReportSource1.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::CrystalDecisions.Web.CrystalReportSource CrystalReportSource1;
     }
 }

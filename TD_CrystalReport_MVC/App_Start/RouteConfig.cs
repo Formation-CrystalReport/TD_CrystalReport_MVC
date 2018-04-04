@@ -18,6 +18,9 @@ namespace TD_CrystalReport_MVC
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.RouteExistingFiles = true;
+           
         }
     }
 }

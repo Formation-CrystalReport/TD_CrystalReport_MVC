@@ -11,7 +11,10 @@ namespace TD_CrystalReport_MVC.Views.Rapports
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            TD_CrystalReport_MVC.Rapports.CachedCrystalReportBonjour cachedCrystalReportBonjour
+                = new TD_CrystalReport_MVC.Rapports.CachedCrystalReportBonjour();
 
+            CrystalReportViewer1.ReportSource = cachedCrystalReportBonjour;
         }
     }
 }
